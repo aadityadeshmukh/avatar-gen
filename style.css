@@ -9,3 +9,8 @@
 .myGrid > div {
     background: hsla(0, 0%, 0%, 0.1);
 }
+.visualizerGrid {
+    display:grid;
+    align-items: center;
+    justify-items: center;
+}

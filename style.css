@@ -1,0 +1,11 @@
+.myGrid {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(1, 100%);
+    grid-gap: 16px;
+}
+.myGrid > div {
+    background: hsla(0, 0%, 0%, 0.1);
+}

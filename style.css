@@ -19,7 +19,7 @@
     align-items: center;
     justify-items: center;
 }
-@media only screen and (max-width: 1080px){
+@media only screen and (max-width: 1500px){
     .myGrid{
         grid-template-columns: repeat(1, 100%);
         grid-template-rows: repeat(2, 50%);

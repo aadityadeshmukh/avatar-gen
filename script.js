@@ -1,5 +1,6 @@
 let inpVal = document.getElementById("inpVal");
-inpVal.onchange = () => {
+let btn = document.getElementById("genBtn");
+btn.onclick = () => {
     let imgSrc = document.getElementById("sourceImage");
     let inputText = inpVal.value;
     console.log(inputText);

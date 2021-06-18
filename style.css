@@ -28,3 +28,8 @@
         grid-row: 1;
     }
 }
+#inpVal, #genBtn{
+    padding: 10px;
+    border-style: none;
+    border-radius: 5px;
+}

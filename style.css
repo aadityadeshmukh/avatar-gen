@@ -33,3 +33,13 @@
     border-style: none;
     border-radius: 5px;
 }
+.vizContainer{
+    padding: 50px 100px;
+    /*Glassmorph*/
+    background: rgba( 154, 71, 71, 0.20 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3.0px );
+    -webkit-backdrop-filter: blur( 3.0px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}

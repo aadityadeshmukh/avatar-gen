@@ -6,13 +6,15 @@
     grid-template-rows: repeat(1, 100%);
     grid-gap: 16px;
 }
-.myGrid > div {
+.myGrid > .inputGrid {
     background: hsla(0, 0%, 0%, 0.1);
 }
 .visualizerGrid {
     display:grid;
     align-items: center;
     justify-items: center;
+    background: rgb(238,174,202);
+    background: linear-gradient(0deg, rgba(238,174,202,1) 40%, rgba(148,187,233,1) 100%);
 }
 .inputGrid{
     display:grid;
@@ -36,10 +38,10 @@
 .vizContainer{
     padding: 50px 100px;
     /*Glassmorph*/
-    background: rgba( 154, 71, 71, 0.20 );
+    background: rgba( 28, 115, 157, 0.05 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    backdrop-filter: blur( 3.0px );
-    -webkit-backdrop-filter: blur( 3.0px );
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
